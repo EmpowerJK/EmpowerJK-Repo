@@ -23,8 +23,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analy
 		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationScript_ClassLibrary", "AutomationScript_ClassLibrary\AutomationScript_ClassLibrary.csproj", "{DD4297A7-A747-4416-8632-CD7393DF119E}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmpowerJK", "EmpowerJK", "{879D17A4-1165-4828-B03F-92E44439F1B3}"
 	ProjectSection(SolutionItems) = preProject
 		EmpowerJK.xml = EmpowerJK.xml
@@ -40,10 +38,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DD4297A7-A747-4416-8632-CD7393DF119E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD4297A7-A747-4416-8632-CD7393DF119E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD4297A7-A747-4416-8632-CD7393DF119E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD4297A7-A747-4416-8632-CD7393DF119E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DAAFE626-12DC-4676-8E55-AE62D7B13157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DAAFE626-12DC-4676-8E55-AE62D7B13157}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAAFE626-12DC-4676-8E55-AE62D7B13157}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -54,7 +48,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{68FB3A36-3D78-4FE7-8B34-8F293C6FAF08} = {5E964A81-1F04-4BB1-A24C-4CDD66B8970F}
-		{DD4297A7-A747-4416-8632-CD7393DF119E} = {5E964A81-1F04-4BB1-A24C-4CDD66B8970F}
 		{879D17A4-1165-4828-B03F-92E44439F1B3} = {F49D3CCE-2E47-4945-BA52-E415C40660C5}
 		{3D440C63-4DDC-4F11-9EAC-EC985E90FF88} = {879D17A4-1165-4828-B03F-92E44439F1B3}
 		{DAAFE626-12DC-4676-8E55-AE62D7B13157} = {3D440C63-4DDC-4F11-9EAC-EC985E90FF88}
