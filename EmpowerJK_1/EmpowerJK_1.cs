@@ -56,6 +56,7 @@ namespace EmpowerJK_1
 	using System.Globalization;
 	using System.Text;
 	using Skyline.DataMiner.Automation;
+	using Skyline.DataMiner.Core.DataMinerSystem.Automation;
 
 	/// <summary>
 	/// DataMiner Script Class.
@@ -66,9 +67,15 @@ namespace EmpowerJK_1
 		/// The Script entry point.
 		/// </summary>
 		/// <param name="engine">Link with SLAutomation process.</param>
-		public void Run(Engine engine)
+		public void Run(IEngine engine)
 		{
 			engine.GenerateInformation("Hello World!");
+			var myDms = engine.GetDms();
+
+			foreach (var element in myDms.GetElements())
+			{
+				engine.GenerateInformation(element.Name);
+			}
 		}
 	}
 }
